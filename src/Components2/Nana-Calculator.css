@@ -43,6 +43,8 @@ body {
     background-color: lightcoral;
     font-size:24px;
     color : yellow;
+    align-items: center;
+    justify-content: center;
 }
 
 .Nana-Button:hover {
