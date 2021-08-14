@@ -1,0 +1,54 @@
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+}
+
+.Nana-Screen {
+    margin : 0% 2.5% 0% 2.5%;
+    width : 95%;
+    height : 20%;
+    background-color: rgb(55, 73, 88);
+    color:rgb(155, 219, 219);
+    font-size:24px;
+}
+
+.Nana-Keypad {
+    display : flex;
+    flex-direction: column;
+    flex-wrap : wrap;
+    align-content: flex-start;
+    margin : 0% 2.5% 2.5% 2.5%;
+    width : 95%;
+    height : 80%;
+    background-color: rgb(0, 225, 255);
+}
+
+.Nana-Calculator {
+    width : 500px;
+    height : 400px;
+
+    margin: 25px;
+    background-color: pink;
+}
+
+.Nana-Button {
+    text-align: center;
+    width:24.5%;
+    height:19%;
+    border-style : solid;
+    border-width: 1px;
+    border-color: white;
+    background-color: lightcoral;
+    font-size:24px;
+    color : yellow;
+}
+
+.Nana-Button:hover {
+    background: #ebebeb;
+}
+
+.Nana-Button[data-size="2"] {
+    height: 38%;
+}
